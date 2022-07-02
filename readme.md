@@ -13,23 +13,23 @@
 ## Demo
 
 [View demo](https://theresnotime.github.io/axist2/)
-<!---
+
 ## Installation
 
 Import in your HTML:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/axist@latest/dist/axist.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/@theresnotime/axist2/dist/axist.min.css"/>
 ```
 
 With npm:
 
 ```bash
-npm i axist
+npm i @theresnotime/axist2
 
-# import '../node_modules/axist/dist/axist.min.css'
+# import '../node_modules/@theresnotime/axist2/dist/axist.min.css'
 ```
--->
+
 ## Acknowledgements
 The codebase of axist<sup>2</sup> is based on [axist](#) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is
 the logo.
