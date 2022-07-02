@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruanmartinelli/axist.git"
+    "url": "git+https://github.com/theresnotime/axist.git"
   },
   "author": "Ruan Martinelli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ruanmartinelli/axist/issues"
+    "url": "https://github.com/theresnotime/axist/issues"
   },
-  "homepage": "https://github.com/ruanmartinelli/axist#readme",
+  "homepage": "https://github.com/theresnotime/axist#readme",
   "devDependencies": {
     "stylelint": "^13.5.0",
     "stylelint-config-standard": "^20.0.0"
