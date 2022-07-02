@@ -1,14 +1,10 @@
-<div align="center">
+<div style="text-align: center; padding-bottom: 1rem;">
     <img src="./logo.png" width="200" height="200" />
     <h1>axist<sup>2</sup></h1>
     <p>
         <img src="https://github.com/ruanmartinelli/axist/workflows/build/badge.svg" />
-        <img src="https://img.shields.io/npm/v/axist.svg" />
     </p>
     <p>Minimal (5kb) drop-in CSS library.</p>
-    <br>
-    <br>
-    <br>
 </div>
 
 ## Demo
@@ -32,4 +28,5 @@ npm i axist
 ```
 -->
 ## Acknowledgements
-The codebase of axist<sup>2</sup> is based on [axist](#) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is the logo.
+The codebase of axist<sup>2</sup> is based on [axist](#) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is
+the logo.
