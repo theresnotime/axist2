@@ -1,7 +1,10 @@
 <div align="center">
     <img src="./logo.png" width="200" height="200" />
-    <h1>axist</h1>
-    <p><img src="https://github.com/ruanmartinelli/axist/workflows/build/badge.svg"/> <img src="https://img.shields.io/npm/v/axist.svg" /></p>
+    <h1>axist<sup>2</sup></h1>
+    <p>
+        <img src="https://github.com/ruanmartinelli/axist/workflows/build/badge.svg" />
+        <img src="https://img.shields.io/npm/v/axist.svg" />
+    </p>
     <p>Minimal (5kb) drop-in CSS library.</p>
     <br>
     <br>
@@ -10,8 +13,8 @@
 
 ## Demo
 
-[View demo](https://ruanmartinelli.github.io/axist/)
-
+[View demo](https://theresnotime.github.io/axist2/)
+<!---
 ## Installation
 
 Import in your HTML:
@@ -27,13 +30,6 @@ npm i axist
 
 # import '../node_modules/axist/dist/axist.min.css'
 ```
-
-## Used by
-
-Projects using axist:
-
-- Your project here ✨
-
-## License
-
-MIT © [Ruan Martinelli](https://github.com/ruanmartinelli)
+-->
+## Acknowledgements
+The codebase of axist<sup>2</sup> is based on [axist](#) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is the logo.
