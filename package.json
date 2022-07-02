@@ -1,31 +1,38 @@
 {
-  "name": "axist",
-  "version": "0.0.4",
-  "description": "Minimal (5kb) drop-in CSS library.",
-  "scripts": {
-    "clean": "npx rimraf dist",
-    "dist": "npx mkdirp dist && cp src/index.css dist/axist.css && npx uglifycss src/index.css > dist/axist.min.css",
-    "build": "npm run clean && npm run dist",
-    "test": "stylelint src/index.css",
-    "prepublishOnly": "npm run test",
-    "prepare": "npm run build",
-    "start": "npx serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theresnotime/axist.git"
-  },
-  "author": "Ruan Martinelli",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/theresnotime/axist/issues"
-  },
-  "homepage": "https://github.com/theresnotime/axist#readme",
-  "devDependencies": {
-    "stylelint": "^13.5.0",
-    "stylelint-config-standard": "^22.0.0"
-  },
-  "stylelint": {
-    "extends": "stylelint-config-standard"
-  }
+    "name": "axist",
+    "version": "0.0.4",
+    "description": "Minimal (5kb) drop-in CSS library.",
+    "scripts": {
+        "clean": "npx rimraf dist",
+        "dist": "npx mkdirp dist && cp src/index.css dist/axist.css && npx uglifycss src/index.css --output dist/axist.min.css",
+        "build": "npm run clean && npm run dist",
+        "test": "npm run prettier && npm run css-validator",
+        "prepublishOnly": "npm run test",
+        "prepare": "npm run build",
+        "start": "npx serve",
+        "prettier": "npx prettier -c src/index.css",
+        "css-validator": "npx css-validator src/index.css --vextwarning true --warning no --profile css3svg"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/theresnotime/axist.git"
+    },
+    "author": "Ruan Martinelli",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/theresnotime/axist/issues"
+    },
+    "homepage": "https://github.com/theresnotime/axist#readme",
+    "devDependencies": {
+        "css-validator": "^0.11.0",
+        "prettier": "^2.7.1"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSameLine": true,
+        "printWidth": 100
+    }
 }
