@@ -23,7 +23,7 @@
   "homepage": "https://github.com/theresnotime/axist#readme",
   "devDependencies": {
     "stylelint": "^13.5.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^22.0.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
