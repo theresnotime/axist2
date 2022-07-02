@@ -1,5 +1,5 @@
 {
-    "name": "axist2",
+    "name": "@theresnotime/axist2",
     "version": "1.0.0",
     "description": "Minimal (5kb) drop-in CSS library.",
     "scripts": {
@@ -17,7 +17,7 @@
         "type": "git",
         "url": "git+https://github.com/theresnotime/axist2.git"
     },
-    "author": "Ruan Martinelli",
+    "author": "TheresNoTime",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/theresnotime/axist2/issues"
