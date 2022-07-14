@@ -31,5 +31,5 @@ npm i @theresnotime/axist2
 ```
 
 ## Acknowledgements
-The codebase of axist<sup>2</sup> is based on [axist](#) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is
+The codebase of axist<sup>2</sup> is based on [axist](https://github.com/ruanmartinelli/axist) by [Ruan Martinelli](https://github.com/ruanmartinelli), as is
 the logo.
