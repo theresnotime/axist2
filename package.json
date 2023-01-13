@@ -27,7 +27,7 @@
         "css-validator": "^0.11.0",
         "mkdirp": "^1.0.4",
         "prettier": "^2.7.1",
-        "rimraf": "^3.0.2",
+        "rimraf": "^4.0.4",
         "uglifycss": "^0.0.29"
     },
     "prettier": {
